@@ -39,7 +39,7 @@ function Portfolio() {
                       <p>TimeCrunch is a team-focused to-do app with realtime database connectivity. This version displays a pre-made team which you can alter 
                         through the side menu. The user log-in system is under construction.</p>
                       <br />
-                      <p><span className="bold">Main Tech:</span> Vue, Vuetify, ES6, HTML, CSS</p>
+                      <p><span className="bold">Main Tech:</span> Vue, Vuetify, Firebase, ES6, HTML, CSS</p>
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/davidmbedford/TimeCrunch" target="_blank">Code</a>
@@ -59,7 +59,7 @@ function Portfolio() {
                         determine the best academic course for you! We also have a vast database
                         of related college programs.</p>
                       <br />
-                      <p><span className="bold">Main Tech: </span> React, ES6, node.js, MySql, Express, APIs, Materialize</p>
+                      <p><span className="bold">Main Tech: </span> React, ES6, node.js, MySql, Express, APIs, Materialize, HTML, CSS</p>
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/asmith7531/team1project3" target="_blank">Code</a>
@@ -68,23 +68,6 @@ function Portfolio() {
                   </div>
                 </div>
 
-                {/* <div className="col s12 l6">
-                  <div className="bard">
-                    <div className="bard-image">
-                      <img src={swfc} />
-                      <span class="bard-title">Star Wars: Force Clicker</span>
-                    </div>
-                    <div className="bard-content">
-                      <p>Test you connection to the force and click on all of the characters without repeating! This app was built to demonstrate dynamic changes with React</p>
-                      <br />
-                      <p><span className="bold">Main Tech:</span> React, ES6, Bootstrap </p>
-                    </div>
-                    <div className="bard-action">
-                      <a className="btn-flat" href="https://github.com/davidmbedford/clickergame" target="_blank">Code</a>
-                      <a className="btn-flat" href="https://clickergame-rubc.herokuapp.com/" target="_blank">Site</a>
-                    </div>
-                  </div>
-                </div> */}
 
               </div>
 
@@ -92,14 +75,31 @@ function Portfolio() {
                 <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
+                      <img src={swfc} />
+                      <span class="bard-title">Star Wars: Force Clicker</span>
+                    </div>
+                    <div className="bard-content">
+                      <p>Test you connection to the force with this React-based memory game! Select every character without repeating in order to win.
+                        This app was built with React in order to display dynamic, realtime page manipulation.</p>
+                      <br />
+                      <p><span className="bold">Main Tech:</span> React, ES6, Bootstrap, HTML, CSS</p>
+                    </div>
+                    <div className="bard-action">
+                      <a className="btn-flat" href="https://github.com/davidmbedford/clickergame" target="_blank">Code</a>
+                      <a className="btn-flat" href="https://clickergame-rubc.herokuapp.com/" target="_blank">Site</a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col s12 l6">
+                  <div className="bard">
+                    <div className="bard-image">
                       <img src={showspot} />
                       <span class="bard-title">ShowSpotter</span>
                     </div>
                     <div className="bard-content">
-                      <p>Enables users to find fun events near them! You can search for concerts, fests and more in your area. Find tickets, and directions via our app, and create a profile to save information.</p>
+                      <p>Enables you to find concerts and other events near you! You can search for dates in your area, find tickets, and check directions, as well make a profile to save info.</p>
                       <br />
-                      <p><span className="bold">Main Tech:</span> JavaScript, jQuery, Firebase, APIs, Bootstrap</p>
-                      <br />
+                      <p><span className="bold">Main Tech:</span> JavaScript, jQuery, Firebase, APIs, Moment.js, Bootstrap, HTML, CSS</p>
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/Parker-Tech/project_one_boiler" target="_blank">Code</a>
@@ -108,7 +108,11 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="col s12 l6">
+              </div>
+
+
+              <div className="row">
+              <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
                       <img src={blitz} />
@@ -117,7 +121,7 @@ function Portfolio() {
                     <div className="bard-content">
                       <p>An all-in-one productivity app: Blitz enables you to start your day with a bang, Choose between various widgets, such as traffic reports, weather, and the news, to maximize your morning!</p>
                       <br />
-                      <p><span className="bold">Main Tech:</span> JavaScript, node.js, jQuery, MySql, Handlebars, Express, APIs, Bootstrap</p>
+                      <p><span className="bold">Main Tech:</span> JavaScript, node.js, jQuery, MySql, Handlebars, Express, APIs, Bootstrap, HTML, CSS</p>
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/rachaelbelle/blitzkreig" target="_blank">Code</a>
@@ -126,8 +130,26 @@ function Portfolio() {
                   </div>
                 </div>
 
-              </div>
 
+                <div className="col s12 l6">
+                  <div className="bard">
+                    <div className="bard-image">
+                      <img src={liveschedule} />
+                      <span class="bard-title">Live Schedule</span>
+                    </div>
+                    <div className="bard-content">
+                      <p>This utilizes Firebase to create a live-updating schedule application. This current version is geared towards Train conductors, but the application can be refactored for anyone in need of coordinating a steady routine.</p>
+                      <br />
+                      <p><span className="bold">Main Tech:</span> JavaScript, jQuery, Firebase, Moment.js, Bootstrap, HTML, CSS</p>
+                    </div>
+                    <div className="bard-action">
+                      <a className="btn-flat" href="https://github.com/davidmbedford/LiveSchedule" target="_blank">Code</a>
+                      <a className="btn-flat" href="https://davidmbedford.github.io/LiveSchedule/" target="_blank">Site</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
 
               <div className="row">
                 <div className="col s12 l6">
@@ -139,11 +161,11 @@ function Portfolio() {
                     <div className="bard-content">
                       <p>A digital storefront designed for your command line interface! There is a client, and manager-facing interface for this app. Customers may view inventory and purchase items; managers can review, stock and add new items.</p>
                       <br />
-                      <p><span className="bold">Main Tech:</span> node.js, jQuery, Inquirer, bash</p>
+                      <p><span className="bold">Main Tech:</span> JavaScript, node.js, jQuery, MySQL, Inquirer</p>
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/davidmbedford/bamazon-unit12" target="_blank">Code</a>
-                      <a className="btn-flat" href="#"><span className="card-link">Clone it!</span></a>
+                      <a className="btn-flat" href="#"><span className="card-link">Clone</span></a>
                     </div>
                   </div>
                 </div>
@@ -151,17 +173,17 @@ function Portfolio() {
                 <div className="col s12 l6">
                   <div className="bard">
                     <div className="bard-image">
-                      <img src={liveschedule} />
-                      <span class="bard-title">Live Schedule</span>
+                      <img src={liri} />
+                      <span class="bard-title">Liri</span>
                     </div>
                     <div className="bard-content">
-                      <p>This utilizes Firebase to create a live-updating schedule application. This current version is geared towards Train conductors, but the application can be refactored for anyone in need of coordinating a steady routine.</p>
+                      <p>LIRI is a Node.js based app that users can run in a command line interface to search for concerts, movies, and music. Liri stands for: Language Interpretation and Recognition Interface.</p>
                       <br />
-                      <p><span className="bold">Main Tech:</span> JavaScript, Firebase, jQuery, Bootstrap</p>
+                      <p><span className="bold">Main Tech:</span> JavaScript, node.js, Inquirer, Axios, Moment.js, APIs</p>
                     </div>
                     <div className="bard-action">
-                      <a className="btn-flat" href="https://github.com/davidmbedford/LiveSchedule" target="_blank">Code</a>
-                      <a className="btn-flat" href="https://davidmbedford.github.io/LiveSchedule/" target="_blank">Site</a>
+                      <a className="btn-flat" href="https://github.com/davidmbedford/liri-node-app" target="_blank">Code</a>
+                      <a className="btn-flat" href="https://clickergame-rubc.herokuapp.com/" target="_blank">Clone</a>
                     </div>
                   </div>
                 </div>
@@ -178,7 +200,7 @@ function Portfolio() {
                     <div className="bard-content">
                       <p>This app allows users to take a survey and find like-minded people in their area to hang out with! This app is meant to demonstrate MySql API-routing and Handlebars via node.</p>
                       <br />
-                      <p><span className="bold">Main Tech:</span> JavaScript, jQuery, MySql, Handlebars, Materialize</p>
+                      <p><span className="bold">Main Tech:</span> JavaScript, jQuery, MySql, Handlebars, Materialize, HTML, CSS</p>
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/davidmbedford/FriendFinder" target="_blank">Code</a>
@@ -196,7 +218,7 @@ function Portfolio() {
                     <div className="bard-content">
                       <p>A jQuery-based Gif engine that utilizes the Giphy API. Users can add buttons to the header and use them to search for gifs of any sort based on what's trending.</p>
                       <br />
-                      <p><span className="bold">Main Tech:</span> JavaScript, jQuery, Giphy API, HTML5, CSS3</p>
+                      <p><span className="bold">Main Tech:</span> JavaScript, jQuery, Giphy API, HTML, CSS</p>
                     </div>
                     <div className="bard-action">
                       <a className="btn-flat" href="https://github.com/davidmbedford/Unit-6-GifTastic" target="_blank">Code</a>
