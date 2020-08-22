@@ -1,9 +1,10 @@
 import React from 'react';
-import './style.css';
+// import './style.css';
 import Footer from '../../components/footer/index.js';
 
 function Home() {
   return (
+    <>
     <div className="col s12 l9 no-pad">
       <div className="App">
         <div className="App-header">
@@ -33,6 +34,7 @@ function Home() {
         </div>
       </div>
     </div>
+    </>
   )
   
 };
