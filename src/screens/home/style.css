@@ -1,0 +1,21 @@
+.color1 {
+  color: #9a869c;
+}
+
+.color2 {
+  color: #90a5ce;
+}
+
+.color3 {
+  color: #a0d4a5;
+}
+
+#hi,
+#workhere {
+  transition: color 1s ease;
+}
+
+#hi:hover,
+#workhere:hover {
+  color: white;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Row } from 'reactstrap';
-// import './App.css';
+import './App.css';
 
 import Home from './screens/home/index.js';
 import Portfolio from './screens/portfolio/index.js';
