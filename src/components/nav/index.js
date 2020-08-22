@@ -43,7 +43,7 @@ class Navigation extends Component {
                 <h2 className="right-align" id="titleName">
                   <a href="https://www.linkedin.com/in/davidmbedford/" target="_blank">david michael bedford</a>
                 </h2>
-                <a data-target="slide-out" className="sidenav-trigger hide-on-med-and-up"><i className="material-icons white-text menuicon">menu</i></a>
+                <a data-target="slide-out" className="sidenav-trigger hide-on-large-only"><i className="material-icons white-text menuicon">menu</i></a>
                   <div className="sticky-top">
                     <ul class="right-align hide-on-med-and-down">
                       <li><Link className="waves-effect waves-light btn-flat nav-links" to='/'>Home</Link></li>
