@@ -1,0 +1,59 @@
+h2 {
+  color: #90a5ce;
+  font-family: 'Ultra', serif;
+  font-size: 3vw;
+  padding-right: 5px;
+  padding-top: 20vh;
+}
+
+#titleName {
+  transition: color 1s ease;
+}
+
+#titleName:hover {
+  color: white;
+}
+
+.nav-links {
+  font-size: 2vw;
+  padding-bottom: 1vh;
+  padding-right: 5px;
+  font-family: 'Francois One', sans-serif;
+  color: #9a869c;
+}
+
+.sidenav {
+opacity: 0.8;
+width: 150px;
+font-family: 'Francois One', sans-serif;
+}
+
+.menuicon {
+padding: 10px;
+}
+
+/* from bs
+@supports ((position:-webkit-sticky) or (position:sticky)) {
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020
+}
+} */
+
+.particles {
+height: 100vh;
+position: absolute;
+z-index: -2;
+}
+
+.nav {
+position: relative;
+}
+
+@media only screen and (max-width: 500px) {
+#titleName {
+  font-size: 5vw
+}
+}

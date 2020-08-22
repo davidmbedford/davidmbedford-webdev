@@ -1,0 +1,26 @@
+.footerIcon {
+  padding: 1vw 2vw 1vw 2vw;
+}
+
+footer {
+bottom: 1rem;
+margin-top: 5vh;
+}
+
+.fa-file,
+.fa-github,
+.fa-linkedin {
+transition: color 1s ease;
+}
+
+.fa-file:hover {
+color: #9a869c;
+}
+
+.fa-github:hover {
+color: #90a5ce;
+}
+
+.fa-linkedin:hover {
+color: #a0d4a5;
+}

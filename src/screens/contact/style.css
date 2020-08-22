@@ -1,0 +1,11 @@
+.contact-info {
+  color: #90a5ce;
+}
+
+a.contact-info {
+  transition: color 1s ease;
+}
+
+a.contact-info:hover {
+  color: white;
+}

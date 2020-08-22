@@ -1,0 +1,93 @@
+p {
+  color: black;
+  text-align: left;
+  font-size: 1.1rem;
+  font-family: 'Teko', serif;
+}
+
+.bard {
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #fff;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bard .bard-image {
+  position: relative;
+}
+
+.bard .bard-image img {
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+}
+
+.bard .bard-image .bard-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 24px;
+  font-family: 'Ultra', serif;
+  font-size: 1.2rem !important;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.bard .bard-content {
+  padding: 24px;
+}
+
+.bard .bard-content p {
+  margin: 0;
+}
+
+/* .bard .bard-content .bard-title {
+  display: block;
+  line-height: 32px;
+  margin-bottom: 8px;
+} */
+
+.bard .bard-action {
+  background-color: inherit;
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  position: relative;
+  padding: 16px 24px;
+  /* border-radius: 0 0 2px 2px; */
+}
+
+.bard .bard-action a {
+  color: #90a5ce;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 0px 10px 0px 10px;
+  -webkit-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+.bard .bard-action a:hover {
+  color: #a0d4a5;
+}
+
+.bard .bard-action:last-child {
+  border-radius: 0 0 2px 2px;
+}
